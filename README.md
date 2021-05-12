@@ -1,4 +1,5 @@
 # Evo_growth
+
 Evolutionary Intertemporal Decision Rules in a Growth Model
 
 Implemented in Julia 1.3.1 https://julialang.org/
@@ -7,7 +8,7 @@ Implemented in Julia 1.3.1 https://julialang.org/
 To run the simulation / replicate the results.
 1.  load all file into the project directory.
 2.	Set parameters in q_set_para_initial() in the file setup_functions.jl.
-3.	Run the program  Run_learning.jl to observe the evolution of the the decsion rule and the associated savings rates / capital levels. The final set of descion rule parameters is saved for step #4.
+3.	Run the program  Run_learning.jl to observe the evolution of the decision rule and the associated savings rates / capital levels. The final set of decision rule parameters is saved for step #4.
 4.	Run the program  Run_simulation.jl to simulate one generation with the parameters obtained previously.
 
 
@@ -29,11 +30,11 @@ Defines the functions used within the simulation
 
 
 setup_initial.jl
-Contains the functions that specify simulation parameters and creat inital values.
+Contains the functions that specify simulation parameters and create initial values.
 
 
 show_functions.jl
-Containes the functions used to creat the plots
+Containes the functions used to create the plots
 
 
 sim_functions.jl
